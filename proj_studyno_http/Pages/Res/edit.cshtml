@@ -1,0 +1,31 @@
+﻿@page "{restaurantId:int?}"
+@model proj_studyno_http.Pages.Res.editModel
+@{
+}
+
+<h2>@Model.Restaurant.Name</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="Restaurant.Id"/>
+    <div>
+        <div>
+            <label asp-for="Restaurant.Name"></label>
+            <input asp-for="Restaurant.Name" />
+            <span asp-validation-for="Restaurant.Name"></span>
+        </div>
+        <div>
+            <label asp-for="Restaurant.Address"></label>
+            <input asp-for="Restaurant.Address" />
+            <span asp-validation-for="Restaurant.Address"></span>
+        </div>
+        <div>
+            <label asp-for="Restaurant.Color"></label>
+            <select asp-items="Model.Colors" asp-for="Restaurant.Color"></select>
+            <span asp-validation-for="Restaurant.Color"></span>
+        </div>
+        <button type="submit">Edit</button>
+    </div>
+
+    
+</form>

@@ -1,0 +1,24 @@
+﻿@page  "{restaurantId:int}"
+@model proj_studyno_http.Pages.Res.detailModel
+@{
+}
+
+<h2>@Model.Restaurant.Name</h2>
+
+
+<div>
+    ID: @Model.Restaurant.Id
+</div>
+<div>
+    Address: @Model.Restaurant.Address
+</div>
+<div>
+    Color: @Model.Restaurant.Color
+</div>
+
+@if (Model.message != null)
+{
+    <div>
+        @Model.message
+    </div>
+}

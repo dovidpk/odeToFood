@@ -1,0 +1,12 @@
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/bin/Debug/net5.0/proj_studyno_http.core.deps.json
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/bin/Debug/net5.0/proj_studyno_http.core.dll
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/bin/Debug/net5.0/ref/proj_studyno_http.core.dll
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/bin/Debug/net5.0/proj_studyno_http.core.pdb
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.csproj.AssemblyReference.cache
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.AssemblyInfoInputs.cache
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.AssemblyInfo.cs
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.csproj.CoreCompileInputs.cache
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.dll
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/ref/proj_studyno_http.core.dll
+/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/Debug/net5.0/proj_studyno_http.core.pdb

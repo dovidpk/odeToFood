@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "proj_studyno_http.core/1.0.0": {
+        "runtime": {
+          "proj_studyno_http.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "proj_studyno_http.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

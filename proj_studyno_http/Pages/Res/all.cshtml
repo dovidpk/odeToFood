@@ -1,0 +1,40 @@
+﻿@page
+@model proj_studyno_http.Pages.Res.res1Model
+
+
+<h1>restaurants</h1>
+
+<form method="get">
+    <input type="search" class="form-controll" asp-for="SearchParms"/>
+    <button>search</button>
+</form>
+
+
+<table>
+    @foreach (var res in Model.restaurants)
+    {
+    <tr>
+        <td>@res.Name</td>
+        <td>@res.Address</td>
+        <td>@res.Color</td>
+        <td>
+            <a asp-page=".\detail" asp-route-restaurantId="@res.Id">
+                see details
+            </a>
+        </td>
+        <td>
+            <a asp-page=".\edit" asp-route-restaurantId="@res.Id">
+                edit
+            </a>
+        </td>
+    </tr>
+    }
+
+
+</table>
+<div>
+    <a asp-page=".\edit">
+        add new
+    </a>
+</div>
+<div>@Model.Message</div>

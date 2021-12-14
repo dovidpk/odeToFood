@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EA8A59D0-A23A-4C28-88D7-988D7EE6A96C}|Default">
+  <MonoDevelop.Ide.ItemProperties.proj__studyno__http PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="proj_studyno_http.data/IRestaurantData.cs">
+    <Files>
+      <File FileName="proj_studyno_http.data/proj_studyno_httpDBContext.cs" Line="1" Column="1" />
+      <File FileName="proj_studyno_http.data/IRestaurantData.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="proj_studyno_http" expanded="True">
+            <Node name="proj_studyno_http.core" expanded="True" />
+            <Node name="proj_studyno_http.data" expanded="True">
+              <Node name="IRestaurantData.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

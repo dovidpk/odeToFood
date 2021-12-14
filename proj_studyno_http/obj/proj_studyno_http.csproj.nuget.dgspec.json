@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http/proj_studyno_http.csproj": {}
+  },
+  "projects": {
+    "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj",
+        "projectName": "proj_studyno_http.core",
+        "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj",
+        "packagesPath": "/Users/dovid/.nuget/packages/",
+        "outputPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dovid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/proj_studyno_http.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/proj_studyno_http.data.csproj",
+        "projectName": "proj_studyno_http.data",
+        "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/proj_studyno_http.data.csproj",
+        "packagesPath": "/Users/dovid/.nuget/packages/",
+        "outputPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dovid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj": {
+                "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http/proj_studyno_http.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http/proj_studyno_http.csproj",
+        "projectName": "proj_studyno_http",
+        "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http/proj_studyno_http.csproj",
+        "packagesPath": "/Users/dovid/.nuget/packages/",
+        "outputPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dovid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj": {
+                "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.core/proj_studyno_http.core.csproj"
+              },
+              "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/proj_studyno_http.data.csproj": {
+                "projectPath": "/Users/dovid/Projects/proj_studyno_http/proj_studyno_http.data/proj_studyno_http.data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
